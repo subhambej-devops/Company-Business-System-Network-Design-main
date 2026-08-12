@@ -1,8 +1,28 @@
+<div align="center">
+
 # Company Business System Network Design
 
-Portfolio and academic networking project using Cisco Packet Tracer. The project designs a scalable company network for a multi-floor business center with VLAN segmentation, inter-VLAN routing, DHCP, OSPF, NAT/PAT, wireless access, SSH, ACLs, and port security.
+**Cisco Packet Tracer enterprise network design for a secure, scalable, multi-floor company network**
 
-## Student Information
+![Cisco Packet Tracer](https://img.shields.io/badge/Cisco-Packet%20Tracer-1BA0D7?style=for-the-badge&logo=cisco&logoColor=white)
+![Networking](https://img.shields.io/badge/Networking-Enterprise-2563EB?style=for-the-badge)
+![VLAN](https://img.shields.io/badge/VLAN-Segmentation-22C55E?style=for-the-badge)
+![OSPF](https://img.shields.io/badge/Routing-OSPF-F97316?style=for-the-badge)
+![Security](https://img.shields.io/badge/Security-ACL%20%7C%20SSH%20%7C%20Port%20Security-E11D48?style=for-the-badge)
+
+[GitHub Profile](https://github.com/YOUR-GITHUB-USERNAME) | [LinkedIn Profile](https://www.linkedin.com/in/YOUR-LINKEDIN-USERNAME/)
+
+</div>
+
+---
+
+## About The Project
+
+This project presents a complete **Company Business System Network Design** created in **Cisco Packet Tracer**. It simulates an enterprise network for a company moving into a new three-floor building, where each department needs secure connectivity, wireless access, dynamic IP addressing, routing, internet access, and basic security controls.
+
+The project is designed to show practical networking skills that are useful for **NOC, Network Support, System Admin, Cloud, and DevOps entry-level roles**.
+
+## Student Details
 
 | Field | Details |
 | --- | --- |
@@ -13,38 +33,64 @@ Portfolio and academic networking project using Cisco Packet Tracer. The project
 | Roll No. | 011-MCA-2024-038 |
 | Registration No. | 011-122-2024-038 |
 
-## Project Objective
+## Recruiter-Friendly Summary
 
-The goal of this project is to design and simulate a reliable enterprise network for a company/business system. The network supports multiple departments across three floors, uses separate VLANs and subnets for each department, provides dynamic IP allocation through DHCP, and uses redundant core and ISP connectivity for better availability.
+| Area | What This Project Demonstrates |
+| --- | --- |
+| Network Design | Designed a structured enterprise network using hierarchical architecture. |
+| Routing | Configured OSPF to advertise routes between routers and multilayer switches. |
+| Switching | Implemented VLANs and inter-VLAN routing for department-wise segmentation. |
+| IP Management | Used DHCP for dynamic IP allocation and static IP addressing for servers. |
+| Security | Added SSH, ACLs, NAT/PAT, and port security for controlled network access. |
+| Troubleshooting | Verified connectivity using ping, traceroute, DHCP checks, and command outputs. |
+
+## Network Scenario
+
+A trading floor support center with around **600 users** is shifting to a new three-floor building. The new network must support multiple departments, secure communication, redundant connectivity, DHCP services, wireless access, and internet connectivity through ISP routers.
+
+### Department Layout
+
+| Floor | Department | Expected Users |
+| --- | --- | --- |
+| First Floor | Sales and Marketing | 120 |
+| First Floor | Human Resource and Logistics | 120 |
+| Second Floor | Finance and Accounts | 120 |
+| Second Floor | Admin and Public Relations | 120 |
+| Third Floor | ICT | 120 |
+| Third Floor | Server Room | 12 devices |
 
 ## Key Features
 
-- Hierarchical enterprise network design using Cisco Packet Tracer.
-- Separate VLANs for Sales, HR, Finance, Admin, ICT, and Server Room.
-- Inter-VLAN routing using multilayer switches.
-- DHCP-based dynamic IP allocation for end-user devices.
-- Static IP addressing for server room devices.
-- OSPF routing between routers and multilayer switches.
-- NAT/PAT configuration for internet access.
-- SSH configuration for secure remote access.
-- ACL and port-security implementation for controlled access.
-- Wireless network support for departments.
-- Connectivity testing using ping, traceroute, and DHCP verification.
+- Designed a hierarchical enterprise network topology.
+- Created separate VLANs for each department.
+- Configured inter-VLAN routing using multilayer switches.
+- Configured DHCP services for automatic IP address allocation.
+- Assigned static IP addresses to server room devices.
+- Implemented OSPF routing across routers and multilayer switches.
+- Configured NAT/PAT for internet access.
+- Enabled SSH for secure remote device access.
+- Implemented ACL rules for traffic control.
+- Configured port security for sensitive departments.
+- Added wireless network support for users.
+- Verified network communication with testing commands.
 
-## Technologies Used
+## Technologies And Concepts Used
 
-- Cisco Packet Tracer
-- VLANs and Subnetting
-- Inter-VLAN Routing
-- DHCP
-- OSPF
-- NAT/PAT
-- ACL
-- SSH
-- Port Security
-- Wireless LAN
+| Category | Tools / Concepts |
+| --- | --- |
+| Simulator | Cisco Packet Tracer |
+| Switching | VLANs, trunk ports, access ports, port security |
+| Routing | OSPF, inter-VLAN routing, multilayer switch routing |
+| IP Services | DHCP, static IP addressing, subnetting |
+| Security | SSH, ACL, port security, secure remote access |
+| Internet Access | NAT, PAT, ISP router configuration |
+| Validation | Ping, traceroute, DHCP verification, connectivity checks |
 
-## Repository Structure
+## Network Topology
+
+![Network Topology](image.png)
+
+## Project Files
 
 ```text
 .
@@ -65,30 +111,62 @@ The goal of this project is to design and simulate a reliable enterprise network
 +-- README.md
 ```
 
-## Topology
+## How To Open This Project
 
-![Network Topology](image.png)
+1. Install **Cisco Packet Tracer**.
+2. Download or clone this repository.
+3. Open `Company Business System Network Design (Project #6).pkt`.
+4. Review the topology and device configurations.
+5. Open the files in `All Commands/` to study router, switch, ISP, and validation commands.
+6. Read `Project Report.pdf` for the detailed explanation.
 
-## How to Open the Project
+## Testing And Verification
 
-1. Install Cisco Packet Tracer.
-2. Open `Company Business System Network Design (Project #6).pkt`.
-3. Review the topology, VLANs, routing configuration, DHCP, NAT/PAT, and security settings.
-4. Use the files inside `All Commands/` to study the device configuration commands.
-5. Check the PDFs for project explanation and report content.
+The project includes verification for:
 
-## Recommended GitHub Repository Name
+- VLAN connectivity
+- Inter-VLAN communication
+- DHCP address allocation
+- OSPF route advertisement
+- NAT/PAT internet access
+- SSH remote access
+- ACL behavior
+- Port-security configuration
+- End-to-end ping and traceroute testing
+
+## Skills Highlighted
+
+This project highlights practical hands-on skills in:
+
+- Enterprise network planning
+- Cisco router and switch configuration
+- Subnetting and IP address design
+- VLAN-based segmentation
+- Routing and switching
+- Basic network security
+- Network troubleshooting and documentation
+
+## Suggested Repository Description
 
 ```text
-company-business-system-network-design
+Cisco Packet Tracer enterprise network design project with VLANs, OSPF, DHCP, NAT/PAT, SSH, ACLs, port security, and wireless connectivity.
 ```
 
 ## Suggested GitHub Topics
 
 ```text
-cisco packet-tracer networking vlan ospf dhcp nat acl ssh port-security mca-project
+cisco packet-tracer networking vlan ospf dhcp nat acl ssh port-security enterprise-network mca-project
 ```
 
-## Attribution
+## Author
 
-This repository package keeps the original MIT license included in the source files. If this project is used for academic submission, portfolio presentation, or further modification, review the license and cite any reused reference material properly.
+**Subham Bej**  
+MCA, 2024-2026  
+Swami Vivekananda University
+
+- GitHub: [https://github.com/YOUR-GITHUB-USERNAME](https://github.com/YOUR-GITHUB-USERNAME)
+- LinkedIn: [https://www.linkedin.com/in/YOUR-LINKEDIN-USERNAME/](https://www.linkedin.com/in/YOUR-LINKEDIN-USERNAME/)
+
+## License And Attribution
+
+This repository includes the original MIT license from the source project files. If you use or modify this project for academic or portfolio purposes, keep the license file and provide proper attribution where required.
