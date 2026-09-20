@@ -10,7 +10,7 @@
 ![OSPF](https://img.shields.io/badge/Routing-OSPF-F97316?style=for-the-badge)
 ![Security](https://img.shields.io/badge/Security-ACL%20%7C%20SSH%20%7C%20Port%20Security-E11D48?style=for-the-badge)
 
-[GitHub Profile](https://github.com/YOUR-GITHUB-USERNAME) | [LinkedIn Profile](https://www.linkedin.com/in/YOUR-LINKEDIN-USERNAME/)
+[GitHub Profile](https://github.com/subhambej-devops) | [LinkedIn Profile](https://www.linkedin.com/in/subham-bej-devops/)
 
 </div>
 
@@ -30,8 +30,6 @@ The project is designed to show practical networking skills that are useful for 
 | University | Swami Vivekananda University |
 | Program | MCA |
 | Academic Session | 2024-2026 |
-| Roll No. | 011-MCA-2024-038 |
-| Registration No. | 011-122-2024-038 |
 
 ## Recruiter-Friendly Summary
 
@@ -164,8 +162,8 @@ cisco packet-tracer networking vlan ospf dhcp nat acl ssh port-security enterpri
 MCA, 2024-2026  
 Swami Vivekananda University
 
-- GitHub: [https://github.com/YOUR-GITHUB-USERNAME](https://github.com/YOUR-GITHUB-USERNAME)
-- LinkedIn: [https://www.linkedin.com/in/YOUR-LINKEDIN-USERNAME/](https://www.linkedin.com/in/YOUR-LINKEDIN-USERNAME/)
+- GitHub: [https://github.com/subhambej-devops](https://github.com/subhambej-devops)
+- LinkedIn: [https://www.linkedin.com/in/subham-bej-devops/](https://www.linkedin.com/in/subham-bej-devops/)
 
 ## License And Attribution
 
